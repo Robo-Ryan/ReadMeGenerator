@@ -1,34 +1,36 @@
 # ReadMeGenerator
 
-
-This CLI app will let you create your own ReadMe file from CLI inputs
+This CLI app will create ReadMe files for you.
 
 - [ReadMeGenerator](#readmegenerator)
 	- [Installation](#installation)
 	- [Usage](#usage)
 	- [Contributions](#contributions)
 	- [License](#license)
-	- [Contact](#contact)
+	- [Test](#test)
+	- [Questions](#questions)
 	- [Acknowledgments](#acknowledgments)
   
 
 ## Installation
+Go here to clone my repo: github.com/Robo-Ryan/ReadMeGenerator
 
-git clone git@github.com:Robo-Ryan/ReadMeGenerator.git
+Make sure you add node_modules/ and .DS_Store/ to a .gitignore file before you install the below.
 
-<!-- node installation: Navigate to your directory in terminal then input the following-->
+There are a few install packages. Install them with the following commands when you've navigated to your directory in terminal:
 `npm init -y`  
 `npm i inquirer`  
 `npm i colors`  
 `npm install`  
-<!-- make sure “type:” “module” are added to the package.json file -->
+
+Make sure “type:” “module” are added to the package.json file
 
 
 ## Usage
 
-- Watch [this video](https://www.loom.com/share/93bc7989d0124c66a88bdac4fbc92306?sid=cb6e879e-60bc-40e5-a790-6bea64b0f484) on how to use the ReadMe Generator
+- Watch [this video](https://www.loom.com/share/8051e486c09e49f488df500283882ecc?sid=56a806f3-f10a-4ebb-8dae-af32a7f5c898) on how to use the ReadMe Generator
 - To invoke the app from your CLI use the command:  
-`node index`  
+`node index.js`  
 
 ## Contributions
 
@@ -42,12 +44,16 @@ Contributing
 
 ## License
 
-This is an MIT License - see the LICENSE file for details.
+This is an MIT License.
 
-## Contact
+## Test
 
-Your Name – rdmerlini@gmail.com 
-Project Link: https://github.com/Robo-Ryan/ReadMeGenerator
+There are no tests to run yet to make sure readmegenerator is running properly, but use the command `node index.js` to generate the file and contact me with any issues you have.
+
+## Questions
+Reach out to me with questions: 
+email – rdmerlini@gmail.com 
+github: https://github.com/Robo-Ryan/ReadMeGenerator
 
 ## Acknowledgments
 

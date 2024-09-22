@@ -124,17 +124,16 @@ ${response.description}
 	- [License](#license)
     - [Contributing](#contributing)
 	- [Tests](#tests)
-	- [Questions](#acknowledgments)
+	- [Questions](#questions)
 
 ## Installation
-You can clone this repository here: github.com/Robo-Ryan/ReadMeGenerator
 ${response.installation}
 
 ## Usage
 ${response.usage}
 
 ## License
-This is an ${response.license}. 
+This is an ${response.license} license. 
 
 ## Contributing
 ${response.contributions}
