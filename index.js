@@ -134,7 +134,7 @@ ${response.installation}
 ${response.usage}
 
 ## License
-This is an ${response.license} - see the LICENSE file for details.
+This is an ${response.license}. 
 
 ## Contributing
 ${response.contributions}
