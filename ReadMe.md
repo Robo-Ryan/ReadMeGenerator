@@ -25,7 +25,6 @@ There are a few install packages. Install them with the following commands when 
 
 Make sure “type:” “module” are added to the package.json file
 
-
 ## Usage
 
 - Watch [this video](https://www.loom.com/share/8051e486c09e49f488df500283882ecc?sid=56a806f3-f10a-4ebb-8dae-af32a7f5c898) on how to use the ReadMe Generator

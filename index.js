@@ -142,7 +142,7 @@ ${response.contributions}
 ${response.test}
 
 ## Questions
-If you have any questions, please contact me at github.com/${response.githubName} on GitHub or email me at Your email: ${response.email}.
+If you have any questions, please contact me at [${response.githubName}](github.com/${response.githubName}) on GitHub or email me at: ${response.email}.
 `
   fs.writeFile(`GeneratedReadMe.md`, ReadMe, (err)=>
   err ? console.error(err) : console.log(`Success!`))
