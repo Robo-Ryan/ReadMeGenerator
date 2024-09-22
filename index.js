@@ -68,17 +68,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'github',
-        message: 'Please provide your GitHub repository link.'
-    },
-    {
-        type: 'input',
         name: 'email',
         message: 'Please provide your email address.'
-    },{
-        type: 'input',
-        name: 'name',
-        message: 'What is your name?.'
     },
     ];
 
@@ -136,28 +127,25 @@ ${response.description}
 	- [Questions](#acknowledgments)
 
 ## Installation
-Find the repository here ${response.github}
+You can clone this repository here: github.com/Robo-Ryan/ReadMeGenerator
+${response.installation}
 
 ## Usage
-
+${response.usage}
 
 ## License
 This is an ${response.license} - see the LICENSE file for details.
 
 ## Contributing
-Contributing
-    1.	Fork the project
-    2.	Create your feature branch (git checkout -b feature/featurename)
-    3.	Commit your changes (git commit -m 'Added a feature')
-    4.	Push to the branch (git push origin feature/featurename)
-    5.	Open a pull request  
+${response.contributions}
 
 ## Tests
+${response.test}
 
 ## Questions
-If you have any questions, please contact me at ${response.githubName} on GitHub or email me at Your email: ${response.email}.
+If you have any questions, please contact me at github.com/${response.githubName} on GitHub or email me at Your email: ${response.email}.
 `
-  fs.writeFile(`ReadMe.md`, ReadMe, (err)=>
+  fs.writeFile(`GeneratedReadMe.md`, ReadMe, (err)=>
   err ? console.error(err) : console.log(`Success!`))
 })
 
