@@ -2,13 +2,9 @@
 
 This CLI app will let you create your own ReadMe file from CLI inputs
 
-## TOC
-
 - [ReadMeGenerator](#readmegenerator)
-	- [TOC](#toc)
 	- [Installation](#installation)
 	- [Usage](#usage)
-	- [video notes:](#video-notes)
 	- [Contributions](#contributions)
 	- [License](#license)
 	- [Contact](#contact)
@@ -20,25 +16,18 @@ This CLI app will let you create your own ReadMe file from CLI inputs
 git clone git@github.com:Robo-Ryan/ReadMeGenerator.git
 
 <!-- node installation: Navigate to your directory in terminal then input the following-->
-npm init -y  
-npm i inquirer  
-npm i colors  
-npm install  
+`npm init -y`  
+`npm i inquirer`  
+`npm i colors`  
+`npm install`  
 <!-- make sure “type:” “module” are added to the package.json file -->
 
 
 ## Usage
 
-- Watch this video on how to use the ReadMe Generator
-- To invoke the app from your CLI use the command:
-node index
-
-video notes:
-- 
-- The walkthrough video must demonstrate how a user would invoke the application from the command line.
-- The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-- The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.How to use the project, including code blocks and screenshots as necessary.
-npm start
+- Watch [this video](https://www.loom.com/share/93bc7989d0124c66a88bdac4fbc92306?sid=cb6e879e-60bc-40e5-a790-6bea64b0f484) on how to use the ReadMe Generator
+- To invoke the app from your CLI use the command:  
+`node index`  
 
 ## Contributions
 
